@@ -1,0 +1,126 @@
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.feeds {
+    flex: 2;
+}
+
+.wrapper-item {
+    align-items: center;
+    padding: 50px;
+}
+
+#right {
+    border: none;
+    background: transparent;
+}
+
+.card{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 5px 10px 5px;
+    height: 430px;
+    width: 240px;
+}
+.cardhead{
+    text-align: center;
+}
+.card-img{
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.create-post {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 5px 10px 5px;
+    margin-bottom: 30px;
+}
+
+.create-post-actions {
+    display: flex;
+    justify-content: space-around;
+}
+
+.posts {
+    margin: 20px 0 20px 0;
+    padding: 10px 0 0 0;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.posts .author {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 10px 10px 10px;
+}
+
+.posts .author .author-img img{
+    height: 50px;
+    width: 50px;
+}
+
+.posts .author .author-info div p {
+    margin: 1px;
+    margin-left: 10px;
+}
+
+.posts .post .caption{
+    padding: 10px;
+}
+
+.posts .post .media img {
+    height: 280px;
+    width: 500px;
+}
+
+.post-bottom .reaction {
+    display: flex;
+    justify-content: start;
+    padding: 0;
+}
+
+.post-bottom .reaction p {
+    margin: 10px 10px 10px 10px;
+}
+.muted-text {
+    color: #c7d1d8;
+}
+
+.ph {
+    display: none;
+}
+
+.shadow {
+    box-shadow: 0 17px 50px 0 #c7d1d8;
+}
+@media (max-width: 992px) {
+    .pc {
+        display: none;
+    }
+    .ph {
+        display: block;
+    }
+
+    .fa {
+        font-size: 10px;
+    }
+
+    .posts .post .media img {
+        width: 99vw;
+    }
+
+    .create-post {
+        max-width: 99vw;
+    }
+
+    .feeds {
+        padding: 20px 0 20px 0;
+    }
+}

@@ -1,0 +1,80 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background: #e6e6e6;
+    overflow-x: hidden;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #283e4a;
+    padding: 10px 75px 10px 75px;
+    position: fixed;
+    top: 0;
+}
+
+.cover {
+    height: 80px;
+    width: 100%;
+}
+
+.navleft {
+    flex-grow: 2;
+    display: flex;
+    justify-content: start;
+}
+
+.navleft>div {
+    margin-left: 10px;
+}
+
+.input-field {
+    padding: 10px;
+    margin-top: 3px;
+    width: 150%;
+}
+
+.navmiddle {
+    flex-grow: 3;
+    border-right: 1px solid #c7d1d8;
+}
+
+.nav-links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    border-right: #c7d1d8;
+}
+
+.nav-link{
+    color: #c7d1d8;
+}
+
+.nav-link>a{
+    text-decoration: none;
+    color: #c7d1d8;
+}
+
+.fa {
+    font-size: 25px;
+    color: #c7d1d8;
+}
+
+.fa-sort-desc {
+    font-size: 15px;
+    position: absolute;
+    margin-top: -1px;
+    margin-left: 2px;
+}
+
+.nav-link>a:hover {
+    color: white;
+}
+
+.navright {
+    flex-grow: 1;
+    margin-left: 20px;
+}

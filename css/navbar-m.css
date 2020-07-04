@@ -1,0 +1,44 @@
+.navbar-mf {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    bottom: 0;  
+}   
+
+.navbar-mf .fa {
+    font-size: 20px;
+    color: #000;
+}
+
+.navbar-mh {
+    width: 100%;
+    background-color: #283e4a;
+    padding: 10px 10px 10px 10px;
+    position: fixed;
+    top: 0;  
+}   
+
+.navbar-mh .fa {
+    color: #fff;
+    font-size: 30px;
+}
+
+.navbar-mh-flex {
+    display: flex;
+    justify-content: start;
+}
+
+.navbar-mh-flex :nth-child(2){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.navbar-mh-flex :nth-child(3){
+    margin-left: 20px;
+}
+.input-field-m {
+    padding: 5px;
+    width: 100%;
+}
